@@ -49,9 +49,11 @@ var LuaHighlightRules = function() {
         "rconsoleprint|syn_mousemoverel|getsenv|make_writeable|getlocal|messagebox|get_loaded_modules|replaceclosure|hookfunc|get_calling_script|delfolder|syn_getcallingscript|keyrelease|isfolder|syn_islclosure|getcallstack|appendfile|"+
         "syn_crypt_hash|syn_websocket_connect|is_protosmasher_closure|syn_checkcaller|syn_mouse2click|mousemoverel|printconsole|listfiles|syn_mouse1release|islclosure|rconsolewarn|getstateenv|syn_clipboard_set|syn_crypt_decrypt|readfile|mousescroll|mousemoveabs|setconstant|"+
         "syn_io_makefolder|syn_getmenv|getpropvalue|syn_crypt_b64_decode|syn_getgenv|mouse2release|mouse2press|getgc|getstates|getpointerfromstate|mouse1press|syn_decompile|getnamecallmethod|syn_mousemoveabs|setpropvalue|rconsoleinputasync|is_lclosure|syn_crypt_random|"+
-        "fireclickdetector|syn_getloadedmodules|rconsoleinput|getmenv|getreg|syn_io_write|getgenv|messageboxasync|getupvalues|setstack|syn_getinstances|syn_context_get|syn_isactive|syn.run_secure_function|GetService|Players|LocalPlayer|Character|Humanoid|HumanoidRootPart|RunService|Stepped|connect|RenderStepped|BindToRenderStep|Heartbeat|CFrame|Vector3|new|Clone|game|"+
+        "fireclickdetector|syn_getloadedmodules|rconsoleinput|getmenv|getreg|syn_io_write|getgenv|messageboxasync|getupvalues|setstack|syn_getinstances|syn_context_get|syn_isactive|"+
+	// OTHER VARS
+	"syn.run_secure_function|GetService|Players|LocalPlayer|Character|Humanoid|HumanoidRootPart|RunService|Stepped|connect|RenderStepped|BindToRenderStep|Heartbeat|CFrame|Vector3|new|Clone|game|"+
 	"noscripts|script"
-    );
+    ); 
 
     var stdLibaries = ("string|package|os|io|math|debug|table|coroutine|syn|bit|Drawing");
 
